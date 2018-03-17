@@ -11,7 +11,7 @@ class HelloController{
     public function helloWorld()
     {
 return new Response(
-    '<html><body>Hello World!</body></html>'
+    '<html><body>Symfony says: hello world!</body></html>'
 );
     }
 }
